@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+	<meta charset="UTF-8">
+	<title>jQueryスライドショー</title>
+		
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('.abc').bxSlider({
+			auto:true,
+			mode:'fade',
+			speed:1000,
+			slidewidth:400
+		});
+	});
+	</script>
+		
+		
+		
+<!--
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+	</head>
+	
+	<body>
+		
+	<div class="abc">
+	  <div><img src="pic1.jpg"></div>
+	  <div><img src="pic2.jpg"></div>
+	  <div><img src="pic3.jpg"></div>
+	  <div><img src="pic4.jpg"></div>
+	  <div><img src="pic5.jpg"></div>
+	  <div><img src="pic6.jpg"></div>
+	  <div><img src="pic7.jpg"></div>
+	  <div><img src="pic8.jpg"></div>
+	</div>
+		
+	</body>
+</html>
