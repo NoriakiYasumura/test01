@@ -1,0 +1,18 @@
+package com.internousdev.webproj2.dao;
+
+import com.internousdev.webproj2.util.DBConnector;
+import com.sun.jndi.ldap.Connection;
+
+public class InquiryCompleteDAO {
+
+	public int insert(String name, String qtype, String body){
+		int ret = 0;
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+
+		String sql = "insert into inquiry values(?,?,?)";
+		try{
+			PreparedStatement ps = con.prepareStatement(sql);
+		}
+	}
+}
