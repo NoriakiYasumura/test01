@@ -29,3 +29,7 @@
 0:0:0:0:0:0:0:1 - - [27/Mar/2019:15:55:44 +0900] "POST /WebProj3/InquiryCompleteAction.action HTTP/1.1" 200 337
 0:0:0:0:0:0:0:1 - - [27/Mar/2019:15:56:02 +0900] "POST /WebProj3/InquiryCompleteAction.action HTTP/1.1" 200 343
 0:0:0:0:0:0:0:1 - - [27/Mar/2019:15:56:09 +0900] "POST /WebProj3/InquiryCompleteAction.action HTTP/1.1" 200 361
+127.0.0.1 - - [27/Mar/2019:16:29:13 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:16:29:15 +0900] "GET /WebProj3/ HTTP/1.1" 200 2199
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:16:29:20 +0900] "GET /WebProj3/TestAction.action?username=da&password=ee HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:16:29:29 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 217
