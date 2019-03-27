@@ -1,0 +1,5 @@
+package com.internousdev.webprpj3.action;
+
+public class HelloStrutsAction {
+
+}
