@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="リソース名 &apos;HelloJSP/WebContent/total-uou.jsp&apos; を &apos;total-out.jsp&apos; に変更します" description="リソース &apos;total-uou.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/total-uou.jsp" name="total-out.jsp" stamp="1552629065225" updateReferences="true"/>
-</session>

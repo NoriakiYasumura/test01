@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from プロジェクト &apos;Collections_Framework&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Collections_Framework&apos;&#x0D;&#x0A;- オリジナル要素: &apos;List_Map_Set.List_Map_Set.java&apos;" description="要素を削除" element1="/src&lt;List_Map_Set{List_Map_Set.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1552455676130" subPackages="false" version="1.0"/>
-</session>
