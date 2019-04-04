@@ -2,6 +2,10 @@
 public class Capsule {
 
 	public static void main(String[] args){
+		
+		Person per = new Person();
+		System.out.println(per.i);
+		
 		Person taro = new Person("山田太郎",20);
 
 		System.out.println(taro.getName());
