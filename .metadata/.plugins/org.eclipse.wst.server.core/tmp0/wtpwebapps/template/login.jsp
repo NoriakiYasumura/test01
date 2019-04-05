@@ -54,6 +54,7 @@
 				background-color:black;
 				clear:both;
 			}
+			
 		</style>
 	</head>
 	<body>
@@ -69,8 +70,8 @@
 			<div>
 				<h3>商品を購入する際にはログインをお願いします。</h3>
 				<s:form action="LoginAction">
-					<s:textfield name="loginUserId"/>
-					<s:password name="loginPassword"/>
+					<s:textfield name="loginUserId" size="50" label="ログインID"/>
+					<s:password name="loginPassword" size="50" label="パスワード"/>
 					<s:submit value="ログイン"/>
 				</s:form>
 				<br/>

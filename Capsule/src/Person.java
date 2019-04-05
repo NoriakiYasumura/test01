@@ -4,13 +4,14 @@ public class Person {
 
 	private String name = null;
 	private int age = 0;
-
 	
-	public Person(){
+	public static int i;
+	
+	public Person(String name,int age){
 		this.name = name;
 		this.age = age;
 	}
-	public int i = 5;
+
 	public String getName(){
 		return this.name;
 	}

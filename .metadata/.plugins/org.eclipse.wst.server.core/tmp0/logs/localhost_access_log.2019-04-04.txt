@@ -9,3 +9,5 @@
 0:0:0:0:0:0:0:1 - - [04/Apr/2019:14:52:18 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 2706
 127.0.0.1 - - [04/Apr/2019:16:06:55 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [04/Apr/2019:16:06:55 +0900] "GET /template/WEB-INF/classes/com/internousdev/template/action/HomeAction.java HTTP/1.1" 404 1017
+127.0.0.1 - - [04/Apr/2019:16:10:36 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:16:10:37 +0900] "GET /template/WEB-INF/classes/com/internousdev/template/action/HomeAction.java HTTP/1.1" 404 1017

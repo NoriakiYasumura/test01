@@ -14,7 +14,7 @@ public class BuyItemDAO {
 		Connection con = db.getConnection();
 		BuyItemDTO dto = new BuyItemDTO();
 		
-		String sql = "SELECT id,item_name,item_price FEOM item_info_transaction";
+		String sql = "SELECT id,item_name,item_price FROM item_info_transaction";
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);
 			ResultSet rs = ps.executeQuery();
