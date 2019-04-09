@@ -10,7 +10,7 @@
 		<meta http-equiv="imagetoolbar" content="no"/>
 		<meta name="description" content=""/>
 		<meta name="keywords" content=""/>
-		<title>UserCreate画面e</title>
+		<title>UserCreate画面</title>
 		
 		<style type="text/css">
 			/* TAG LAYOUT */
@@ -90,7 +90,7 @@
 								<label>ユーザー名:</label>
 							</td>
 							<td>
-								<input type="text" name="loginUserName" value=""/>	
+								<input type="text" name="userName" value=""/>	
 							</td>
 						</tr>
 						<s:submit value="登録"/>

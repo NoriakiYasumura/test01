@@ -1,0 +1,9 @@
+package com.internousdev.template.action;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+public class BuyItemConfirmAction extends ActionSupoort implements SessionAware {
+
+	
+	
+}
