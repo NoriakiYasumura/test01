@@ -8,7 +8,7 @@ import com.mysql.jdbc.Connection;
 public class DBConnector {
 
 	private static String driverName="com.mysql.jdbc.Driver";
-	private static String url = "jddbc:mysql://localhost/ecsite";	
+	private static String url = "jdbc:mysql://localhost/ecsite";	
 	private static String user = "root";
 	private static String password = "mysql";
 	
